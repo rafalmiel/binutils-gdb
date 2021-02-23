@@ -293,6 +293,9 @@ case "$UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION" in
     *:Redox:*:*)
 	echo "$UNAME_MACHINE"-unknown-redox
 	exit ;;
+    *:Cykusz:*:*)
+	echo "$UNAME_MACHINE"-unknown-cykusz
+	exit ;;
     mips:OSF1:*.*)
 	echo mips-dec-osf1
 	exit ;;
